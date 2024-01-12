@@ -56,11 +56,11 @@ if (preparedForLiftOff){
 preparedForLiftOff = false}
 console.log("Mission scrapped! ");
 console.log("Date: " + date)
-console.log(time)
-console.log(astronautCount)
+console.log("Time:" + time)
+console.log("Astronaut count:" + astronautCount)
 console.log("Crew Mass: " + crewMassKg +"kg")
 console.log("Fuel Mass: " + fuelMassKg + "kg")
-console.log("Shuttle Mass: " + shuttleMassKg + "kg")
+console.log("Shuttle Mass: "+ shuttleMassKg + "kg")
 console.log("Total Mass: " + totalMassKg + "kg")
 console.log("Fuel Temperature: " + fuelTempCelsius + "celsius")
 console.log("Weather Status: " + weatherStatus)
