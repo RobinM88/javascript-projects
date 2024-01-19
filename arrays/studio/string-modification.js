@@ -25,3 +25,4 @@ if (userNum > str.length | userNum < 0){
     newStr = newStr = str.splice(0,3);
     modifiedStr = str.slice(3) + newStr
     console.log(modifiedStr)
+}
