@@ -1,3 +1,4 @@
+
 let protoArray1 = "3,6,9,12";
 let protoArray2 = "A;C;M;E";
 let protoArray3 = "space delimited string";
@@ -11,7 +12,7 @@ function reverseCommas() {
 	let check;
 	let output;
 	//TODO: 2. write the code required for this step
-	if (string[0].includes(",")){
+	if (strings[0].includes(",")){
 		output = protoArray1.split(",").reverse().join(", ")
 	}
 	
@@ -25,7 +26,7 @@ function semiDash() {
 	let check;
 	let output;
 //TODO: write the code required for this step
-  if (string[1].includes(",")){
+  if (strings[1].includes(",")){
 	output = protoArray2.split(";").reverse().join("-")
   }
   
@@ -37,7 +38,7 @@ function reverseSpaces() {
 	let check;
 	let output;
   //TODO: write the code required for this step
-  if (string[2].includes(" ")){
+  if (strings[2].includes(" ")){
     output = protoArray3.split(";").reverse().join(" ")
 }
 
@@ -49,7 +50,7 @@ function commaSpace() {
 	let check;
 	let output;
 	//TODO: write the code required for this step
-	if (string[3].includes(", ")){
+	if (strings[3].includes(", ")){
         output = protoArray4.split(";").reverse().join(",")
     }
 
