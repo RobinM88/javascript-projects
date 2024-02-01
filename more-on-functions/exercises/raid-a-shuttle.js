@@ -54,4 +54,25 @@ console.log("Hold status: " + holdStatus(cargoHold));
 //b). Call your anonymous fuel and cargo functions from within irs.
 
 //c). Use a template literal to return, "Raided _____ kg of fuel from the tanks, and stole ____ and ____ from the cargo hold."
+*/
+function annon(a){
+  if (checkFuel(a) === 'green') {
+    return a -100001;
+  } else if (checkFuel(a) === 'yellow') {
+    return a - 50001;
+  }
+  else {
+    return a;
+  }
+};
 
+function badArr (cargoArray) {
+  if (cargoArray.lenght >= 2) {
+    let stolenItems = [cargoArray.pop(), cargoArray.pop()];
+    cargoArray.push('money', 'money');
+
+    return stolenItems;
+  } else {
+    return[];
+  }
+};
